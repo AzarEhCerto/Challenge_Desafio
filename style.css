@@ -6,6 +6,7 @@
     --color-button-hover: #e55720;
     --color-text: #444444;
     --color-white: #FFFFFF;
+    --color-disabled: #6c757d; /* Cor para botões desabilitados */
 }
 
 /* Estilos gerais */
@@ -125,24 +126,7 @@ button {
     background-color: #a1a1a1;
 }
 
-/* Listas */
-ul {
-    list-style-type: none;
-    color: var(--color-text);
-    font-family: "Inter", sans-serif;
-    font-size: 18px;
-    margin: 20px 0;
-}
-
-.result-list {
-    margin-top: 15px;
-    color: #05DF05;
-    font-size: 22px;
-    font-weight: bold;
-    text-align: center;
-}
-
-/* Botão de sortear título */
+/* Botão de sortear */
 .button-draw {
     display: flex;
     align-items: center;
@@ -159,4 +143,52 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+
+/* Botão de recomeçar */
+.button-restart {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 40px;
+    color: var(--color-white);
+    background-color: var(--color-button);
+    font-size: 16px;
+    margin-top: 10px; /* Espaçamento entre os botões */
+}
+
+.button-restart img {
+    margin-right: 40px;
+}
+
+.button-restart:hover {
+    background-color: var(--color-button-hover);
+}
+
+/* Estilo para botão desabilitado */
+.button-restart:disabled {
+    background-color: var(--color-disabled); /* Cinza para indicar desabilitado */
+    cursor: not-allowed; /* Cursor de "não permitido" */
+    opacity: 0.7; /* Reduz a opacidade */
+}
+
+.button-restart:disabled:hover {
+    background-color: var(--color-disabled); /* Mantém a cor cinza no hover */
+}
+
+/* Listas */
+ul {
+    list-style-type: none;
+    color: var(--color-text);
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.result-list {
+    margin-top: 15px;
+    color: #05DF05;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
 }

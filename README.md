@@ -1,5 +1,6 @@
 🎁 Amigo Secreto
 Este projeto é um jogo simples de Amigo Secreto, desenvolvido utilizando HTML, CSS e JavaScript. Ele permite adicionar nomes de participantes, sortear aleatoriamente um amigo secreto e, como desafio extra, adicionei um botão de recomeçar o jogo.
+![image](https://github.com/user-attachments/assets/0055d81a-a655-4f59-a68b-357060618413)
 
 📂 Estrutura do Projeto
 📁 amigo-secreto
@@ -28,3 +29,5 @@ Desenvolvido funções para:
   Recomeçar o jogo, limpando a lista e desabilitando o botão até que novos nomes sejam adicionados.
 
 O desafio extra foi a implementação do botão "Recomeçar", que reseta completamente o jogo.
+
+Que tal começar a jogar? Acesso o link: https://azarehcerto.github.io/Challenge_Desafio/
